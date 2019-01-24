@@ -1,0 +1,200 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url(../img/home-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Quicksand;
+}
+
+/* Logo e menu */
+
+#header{
+	height: 100px;
+}
+
+#header h1{
+	text-transform: uppercase;
+	color: #fff;
+	font-family: Neucha;
+	letter-spacing: 20px;
+	line-height: 100px;
+	margin-left: 50px;
+	float: left;
+}
+
+#menu{
+	float: right;
+	line-height: 100px;
+	margin-right: 50px;
+}
+
+#menu a{
+	padding: 15px 30px;
+	text-decoration: none;
+	transition: .2s;
+}
+
+#menu a:link, 
+#menu a:visited{
+	color: #fff;
+}
+
+#menu a:hover{
+	background: rgba(255, 255, 255, .3);
+}
+
+#menu a:active{
+	color: #0f0f0f;
+}
+
+/* Conteúdo */
+
+#container{
+	text-align: center;
+	color: #fff;
+	padding: 120px 50px 0px 50px;
+	height: 335px;
+}
+
+#container h2{
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 35px;
+	display: inline;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	cursor: default;
+}
+
+#container p{
+	margin-top: 30px;
+	cursor: default;
+}
+
+/* Rodapé */
+
+#rodape{
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	color: rgb(255,255,255,.4);
+	font-family: Helvetica;
+	font-size: 15px;
+	cursor: default;
+	transition: .5s;
+	background: rgba(0,0,0,.5);
+}
+
+#rodape:hover{
+	color: rgb(255,255,255,.6);
+	background: rgba(0,0,0,.6);
+}
+
+/* Detalhes */
+
+.selected{
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+/* Reservas */
+
+#reservas{
+	background-image: url(../img/reserva-bg.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container-reserva{
+	text-align: center;
+	color: #fff;
+	padding: 63px;
+}
+
+#reserva-title{
+	font-size: 30px;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	color: rgba(255,255,255,.8);
+	text-align: center;
+	cursor: default;
+	transition: .3s;
+	border-bottom: 1px solid rgba(255,255,255,.6);
+}
+
+#reserva-title:hover{
+	color: rgba(255,255,255,1);
+}
+
+#nome, #email, #telefone{
+	width: 300px;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-radius: 50px;
+	padding-left: 20px;
+	display: block;
+	margin: 10px auto;
+	background: rgba(0,0,0,.5);
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,.7);
+}
+
+::-moz-placeholder{
+   color: rgba(255,255,255,.7);
+}
+ 
+:-ms-input-placeholder{  
+  color: rgba(255,255,255,.7);
+}
+
+#botao-reservar{
+	width: 200px;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-radius: 50px;
+	display: block;
+	margin: 30px auto;
+	color: #fff;
+	background: #424242;
+	transition: .3s;
+}
+
+#botao-reservar:hover{
+	width: 260px;
+}
+
+/* Pratos */
+
+#pratos{
+	background-image: url(../img/pratos-bg.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+
+#container-pratos{
+	text-align: center;
+	color: #fff;
+	height: 355px;
+	padding: 50px;
+}
+
+#title-pratos{
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid rgba(255,255,255,.6);
+}
+
+.prato img{
+	border-radius: 40px;
+	margin: 10px;
+}
