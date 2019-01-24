@@ -116,7 +116,7 @@ body{
 }
 
 #reserva-title{
-	font-size: 30px;
+	font-size: 40px;
 	letter-spacing: 5px;
 	margin-bottom: 30px;
 	padding-bottom: 20px;
@@ -125,6 +125,11 @@ body{
 	cursor: default;
 	transition: .3s;
 	border-bottom: 1px solid rgba(255,255,255,.6);
+}
+
+#title2{
+	color: rgba(0,0,0,.9);
+	margin-bottom: 20px;
 }
 
 #reserva-title:hover{
